@@ -1,16 +1,16 @@
 //Prime finds the first 1000000 primes and prints them
-package main
+package primer
 
 import "fmt"
 
 
 func main() {
-	fmt.Println(primesTo(1000000));
+	fmt.Println(PrimesTo(1000000));
 }
 
 //Returns the first 'goal' primes
 //
-func primesTo(goal int) []int{
+func PrimesTo(goal int) []int{
 	primes := make([]int, 0)
 
 	//Defencive guards
