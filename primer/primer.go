@@ -5,12 +5,12 @@ import "fmt"
 
 
 func main() {
-	fmt.Println(PrimesTo(1000000));
+	fmt.Println(FirstNPrimes(1000000));
 }
 
 //Returns the first 'goal' primes
 //
-func PrimesTo(goal int) []int{
+func FirstNPrimes(goal int) []int{
 	primes := make([]int, 0)
 
 	//Defencive guards
